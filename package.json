@@ -1,7 +1,17 @@
 {
   "name": "bsb-native-opam-example",
   "scripts": {
-    "build": "bsb"
+    "build:byte": "bsb",
+    "start:web": "npx serve .",
+    "start:byte": "./lib/bs/bytecode/index.byte",
+    "start:native": "./lib/bs/native/index.native",
+    "build:native": "bsb -make-world -backend native",
+    "build:web": "bsb -make-world -backend js && fpack build ./lib/js/web/web.js --development --nm node_modules",
+    "build:js": "bsb -backend js",
+    "start:js": "node lib/js/src/index.js"
+  },
+  "dependencies": {
+    "fastpack": "^0.9.1"
   },
   "devDependencies": {
     "bsb-native": "4.0.6"

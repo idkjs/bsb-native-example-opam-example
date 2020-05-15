@@ -19,6 +19,12 @@
     "backend": "native",
     "main-module": "Test"
   },{
+    "backend": "native",
+    "main-module": "Index"
+  },{
+    "backend": "bytecode",
+    "main-module": "Index"
+  },{
     "backend": "js",
     "main-module": "Index"
   }],
