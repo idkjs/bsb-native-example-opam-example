@@ -1,0 +1,15 @@
+####{BSB GENERATED: NO EDIT
+# -backend bytecode
+FLG -ppx /Users/mandalarian/Downloads/bsb-native-example-opam-example/node_modules/bsb-native/lib/bsppx.exe
+S /Users/mandalarian/Downloads/bsb-native-example-opam-example/node_modules/bsb-native/lib/ocaml/bytecode
+B /Users/mandalarian/Downloads/bsb-native-example-opam-example/node_modules/bsb-native/lib/ocaml/bytecode
+FLG -color always -no-alias-deps
+FLG -w -30-40+6+7+27+32..39+44+45+101-31
+S test
+B lib/bs/bytecode/test
+S web
+B lib/bs/bytecode/web
+S src
+B lib/bs/bytecode/src
+PKG alcotest
+####BSB GENERATED: NO EDIT}

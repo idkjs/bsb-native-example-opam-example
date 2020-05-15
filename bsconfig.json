@@ -1,0 +1,29 @@
+{
+  "name": "bsb-native-example",
+  "ocamlfind-dependencies": ["alcotest"],
+  "sources": [
+    { "dir": "src" },
+    {
+      "backend": "js",
+      "dir": "web"
+    },
+    {
+      "backend": ["native", "bytecode"],
+      "dir": "test" 
+    }
+  ],
+  "entries": [{
+    "backend": "bytecode",
+    "main-module": "Test"
+  },{
+    "backend": "native",
+    "main-module": "Test"
+  },{
+    "backend": "js",
+    "main-module": "Index"
+  }],
+  "warnings": {
+    "number": "-31"
+  },
+  "refmt": 3
+}
