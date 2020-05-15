@@ -1,6 +1,7 @@
 {
   "name": "bsb-native-opam-example",
   "scripts": {
+    "bsb": "bsb -make-world",
     "build:byte": "bsb",
     "start:web": "npx serve .",
     "start:byte": "./lib/bs/bytecode/index.byte",

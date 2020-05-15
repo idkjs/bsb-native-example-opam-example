@@ -1,8 +1,10 @@
 {
   "name": "bsb-native-example",
-  "ocamlfind-dependencies": ["alcotest"],
+  "ocamlfind-dependencies": ["alcotest","cohttp", "lwt", "Yojson"],
+  "ocaml-dependencies": ["unix", "threads"],
   "sources": [
     { "dir": "src" },
+    { "dir": "graphql" },
     {
       "backend": "js",
       "dir": "web"
