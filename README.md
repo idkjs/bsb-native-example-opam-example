@@ -29,7 +29,7 @@ Then try adding following to `bsconfig.json`
 ```
 
 
-Will have to run `opam install cohttp-lwt-unix cohttp-lwt lwt_ppx`. Note the dashes for the filenames which dont correspond to `cohttp.lwt` etc.
+Will have to run `opam install cohttp-lwt-unix cohttp-lwt lwt_ppx Yojson`. Note the dashes for the filenames which dont correspond to `cohttp.lwt` etc.
 
 ```sh
 ~/Downloads/bsb-native-example-opam-example graphql*
